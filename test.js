@@ -1,7 +1,15 @@
-var youLikeMeat = true;
+var myAge = 29;
 
-if (youLikeMeat){
+if (myAge > 30){
 
-    document.write("Here is the meaty menu..");
-
+    document.write("You are over 30");
+}
+else if (myAge > 20){
+    document.write("You are over 20");
+}
+else if (myAge > 10){
+    document.write("You are over 10");
+}
+else (myAge > 20){
+    document.write("You are not over 10");
 }
