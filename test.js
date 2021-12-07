@@ -1,7 +1,6 @@
-var links = document.getElementsByName("a");
-for (i = 0; i < links.length; i++) {
+function getAverage (a,b) {
 
-    console.log("this is link number"+ i);
-    age++;
+    var average =  (a + b) / 2;
+    console.log(average);
 }
-document.write("alle links now looped");
+getAverage(7,12);
